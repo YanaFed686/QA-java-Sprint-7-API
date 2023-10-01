@@ -71,5 +71,4 @@ public class TestCasesCreateOrder extends OrderResponses {
 
         this.trackId = getTrack(response);
     }
-
 }

@@ -19,7 +19,6 @@ public abstract class BaseRequests {
                 .post(url);
 
     }
-
     public Response getRequest(String url) {
         return given(this.baseRequest()).log().all()
                 .get(url);

@@ -12,7 +12,6 @@ public class CourierRequests extends BaseRequests {
                 "application/json"
         );
     }
-
     public Response loginCourier(Courier courier) {
         return postRequest(
                 ListOfApiHandlers.BASE_URI + ListOfApiHandlers.LOGIN_COURIER,
@@ -20,7 +19,6 @@ public class CourierRequests extends BaseRequests {
                 "application/json"
         );
     }
-
     public Response deleteCourier(Integer idCourier) {
         return deleteRequest(ListOfApiHandlers.BASE_URI + ListOfApiHandlers.DELETE_COURIER + idCourier);
     }

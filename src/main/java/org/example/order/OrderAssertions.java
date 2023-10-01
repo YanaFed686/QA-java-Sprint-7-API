@@ -15,7 +15,6 @@ public class OrderAssertions {
 
     public OrderAssertions() {
     }
-
     public OrderAssertions(Integer track, String firstName, String lastName, String address, String phone, String rentTime, String deliveryDate, String comment, List<String> scooterColor) {
         this.track = track;
         this.firstName = firstName;

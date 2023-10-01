@@ -1,7 +1,6 @@
 package org.example.courier;
 
 public class CourierAssertions {
-
         private Integer id;
         private boolean ok;
         private String message;

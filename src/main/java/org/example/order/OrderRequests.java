@@ -15,7 +15,6 @@ public class OrderRequests extends BaseRequests {
                 "application/json"
         );
     }
-
     public Response deleteOrder(Integer trackId) {
         Map<String, Object> queryParams = new HashMap<>();
         queryParams.put("track", trackId);
@@ -25,7 +24,6 @@ public class OrderRequests extends BaseRequests {
                 queryParams
         );
     }
-
     public Response getOrdersList() {
         return getRequest(ListOfApiHandlers.BASE_URI + ListOfApiHandlers.GET_ORDERS_LIST);
     }

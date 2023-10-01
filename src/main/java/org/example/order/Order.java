@@ -106,4 +106,3 @@ public class Order {
         this.color = color;
     }
 }
-

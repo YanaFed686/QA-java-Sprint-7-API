@@ -49,7 +49,6 @@ public class TestCasesCreateCourier extends CourierResponses {
         checkStatusCode(response, 201);
         checkMessage(response, "ok", true);
     }
-
     @Test
     @DisplayName("Создание двух одинаковых курьеров")
     @Description("Проверка возможности создания двух курьеров с одинаковыми данными. Негативная проверка")

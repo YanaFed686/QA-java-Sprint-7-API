@@ -26,7 +26,6 @@ public class TestCasesDeleteCourier extends CourierResponses {
         this.firstName = "name_" + UUID.randomUUID();
     }
 
-
     @Test
     @DisplayName("Удаление курьера")
     @Description("Проверка удаления курьера по валидным параметрам.Позитивная проверка")

@@ -90,7 +90,6 @@ public class TestCasesLoginCourier extends CourierResponses {
         checkStatusCode(response, 404);
         checkMessage(response, "message", "Учетная запись не найдена");
     }
-
     @Test
     @DisplayName("Авторизация курьера в систему с несуществующим паролем")
     @Description("Проверка возможности авторизации курьера с нневерным паролем. Негативная проверка")
